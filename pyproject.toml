@@ -1,7 +1,13 @@
 [project]
 name = "arxivhound"
 version = "0.1.0"
-description = "Add your description here"
+description = "An autonomous agent to monitor, fetch, and summarize the latest papers from arXiv on user-defined topics, orchestrated by LangGraph."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain-community>=0.3.27",
+    "langchain-core>=0.3.69",
+    "langchain-google-genai>=2.1.8",
+    "langchain-openai>=0.3.28",
+    "langgraph>=0.5.3",
+]
